@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 8px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.hand {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform-origin: 100%;
+    transform: rotate(60deg);
+    transition: transform 0.5s ease-in-out;
+    transform: translate(-50%, -100%);
+
+}
+
+.hour {
+    width: 4px;
+    height: 100px;
+}
+
+.minute {
+    width: 3px;
+    height: 120px;
+}
+
+.second {
+    width: 3px;
+    height: 120px;
+    background-color: red;
+}
+
+.center-point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.number1 {
+    top: 20px;
+    right: 75px;
+}
+
+.number2 {
+    top: 65px;
+    right: 30px;
+}
+
+.number3 {
+    top: 130px;
+    right: 10px;
+}
+
+.number4 {
+    top: 200px;
+    right: 30px;
+}
+
+.number5 {
+    top: 245px;
+    right: 75px;
+}
+
+.number6 {
+    bottom: 5px;
+    left: 145px;
+}
+
+.number7 {
+    top: 245px;
+    left: 75px;
+}
+
+.number8 {
+    top: 195px;
+    left: 25px;
+}
+
+.number9 {
+    top: 130px;
+    left: 10px;
+}
+
+.number10 {
+    top: 65px;
+    left: 30px;
+}
+
+.number11 {
+    top: 20px;
+    left: 75px;
+}
+
+.number12 {
+    top: 0;
+    left: 145px;
+}
